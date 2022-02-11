@@ -24,7 +24,7 @@ exports.signup = async (req) => {
             profile:{
                 create:{
                     bio: 'Présentez vous',
-                    image: 'http://localhost:3000/image/default/default.jpg'
+                    image: 'https://back-livid.vercel.app/image/default/default.jpg'
                 }
             }
         },
